@@ -1,0 +1,93 @@
+/* =======test======= */
+
+  .containf{
+    align-content: center;
+    justify-content: space-between;
+    background: rgb(247, 242, 242);
+    width: auto;
+
+  }
+  .contain .days{
+    display:flex ;
+    flex-wrap:wrap ;
+  }
+
+  .contain .day, 
+  .contain .number
+  {
+    height: 45px;
+    width:45px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default ;
+  }
+  .contain .number {
+    color: rgba(26, 84, 194, 1);
+
+  }
+  .contain .number:hover{
+    border:2px solid  rgba(238, 238, 238, 0.4);
+  }
+  .contain .date{
+    font-size: 85%;
+  }
+  .contain .date{
+    width: 350px;
+    padding: 25px;
+  }
+.event{
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(79, 83, 96, 1);
+}
+.my{
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(79, 83, 96, 1);
+}
+.cal-act{
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+.p1{
+  font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(219, 202, 22, 1);
+}
+.p2{
+  font-family: Rubik;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(219, 202, 22, 1);
+
+}
+.p3{
+  font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(79, 83, 96, 1);
+}
+.p4{}
+.p5{}
+.p6{}
+.p7{}
